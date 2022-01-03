@@ -1,0 +1,12 @@
+git test 
+
+pwd #현재 어디 디렉토리에 있는지 경로를 표시한다.
+tree # 현재 디렉토리 안에 있는 tree구조를 보여준다. brew install tree 로 설치 해줘야 한다.
+mkdir myfolder #myfolder 를 현재 경로에 생성한다.
+touch myFile.html  #myFile.html 를 현재 경로에 생성한다.
+rm -rf myfolder #myfolder 를 바로 삭제한다.
+rm -i myfolder #myFolder 를 물어보고 삭제한다.
+
+git config --global -e #나가기
+git config --global user.name ""
+git config --global user.email ""
